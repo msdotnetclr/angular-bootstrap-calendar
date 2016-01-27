@@ -10,7 +10,9 @@
             'cal-day-today': day.isToday,
             'cal-day-future': day.isFuture
           }">
-
+  <div class="add-event-box">
+    <a ng-click="vm.calendarConfig.onAddEventClicked($event, day)"><i class="glyphicon glyphicon-plus" /></a>
+  </div>
   <small
     class="cal-events-num badge badge-important pull-left"
     ng-show="day.badgeTotal > 0"

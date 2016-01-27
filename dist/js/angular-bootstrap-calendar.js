@@ -1544,6 +1544,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    showTimesOnWeekView: false,
 	    displayAllMonthEvents: false,
 	    showStartEndTimesInSlideBox: true,
+	    onAddEventClicked: function() {
+	      return false;
+	    },
 	    i18nStrings: {
 	      eventsLabel: 'Events',
 	      timeLabel: 'Time',

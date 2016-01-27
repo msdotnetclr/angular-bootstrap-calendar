@@ -216,6 +216,18 @@
 .cal-slide-content ul li.dragging-active .event-item {
   color: black;
 }
+.cal-month-day .add-event-box {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  opacity: 0;
+}
+.cal-month-day:hover .add-event-box {
+  opacity: 1.0;
+}
+.cal-month-day .add-event-box a {
+  color: orange;
+}
 .cal-week-box {
   position: relative;
 }
