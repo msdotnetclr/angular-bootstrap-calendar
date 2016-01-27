@@ -49,6 +49,7 @@ angular
     displayEventEndTimes: false,
     showTimesOnWeekView: false,
     displayAllMonthEvents: false,
+    showStartEndTimesInSlideBox: true,
     i18nStrings: {
       eventsLabel: 'Events',
       timeLabel: 'Time',
